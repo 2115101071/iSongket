@@ -59,4 +59,5 @@
     <string name="content_description_camera_capture">Tombol untuk mengambil foto motif</string>
     <string name="content_description_back_button">Tombol untuk kembali ke halaman sebelumnya</string>
     <string name="version">Version 1.0</string>
+    <string name="pilih_gambar_dari_galeri">Pilih Gambar dari Galeri</string>
 </resources>
