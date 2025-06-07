@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors (Red Theme) -->
+    <color name="primary_color">#D32F2F</color>
+    <color name="primary_variant">#B71C1C</color>
+    <color name="primary_light">#FF5252</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary_color">#FFC107</color>
+    <color name="secondary_variant">#FF8F00</color>
+    <color name="secondary_light">#FFEB3B</color>
+
+    <!-- Background Colors -->
+    <color name="background_color">#FAFAFA</color>
+    <color name="surface_color">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="text_disabled">#9E9E9E</color>
+
+    <!-- Button Colors -->
+    <color name="button_primary">#B80808</color>
+    <color name="button_primary_pressed">#B71C1C</color>
+    <color name="button_secondary">#FFFFFF</color>
+    <color name="button_secondary_pressed">#F5F5F5</color>
+
+    <!-- Status Colors -->
+    <color name="success_color">#4CAF50</color>
+    <color name="warning_color">#FF9800</color>
+    <color name="error_color">#F44336</color>
+    <color name="info_color">#2196F3</color>
+
+    <!-- Neutral Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_medium">#E0E0E0</color>
+    <color name="gray_dark">#424242</color>
+
+    <!-- Divider -->
+    <color name="divider_color">#E0E0E0</color>
+
+    <!-- Overlay Colors -->
+    <color name="overlay_dark">#80000000</color>
+    <color name="overlay_light">#40FFFFFF</color>
+
+    <!-- Shadow Colors -->
+    <color name="shadow_color">#1A000000</color>
+    <color name="elevation_color">#0D000000</color>
+
+    <color name="red">#B80808</color>
+    <color name="highlight_red">#FFE5E5</color>
+
+</resources>

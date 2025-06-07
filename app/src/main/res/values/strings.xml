@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">iSongket</string>
+    <string name="home_subtitle">Klasifikasi Motif Songket Berbasis AI</string>
+    <string name="footer_text">Powered by TensorFlow Lite</string>
+
+    <!-- Navigation -->
+    <string name="back_button">Kembali</string>
+
+    <!-- Home Screen -->
+    <string name="cek_motif">Cek Motif</string>
+    <string name="app_logo">Logo Aplikasi iSongket</string>
+
+    <!-- Camera Screen -->
+    <string name="capture_motif">Ambil Foto Motif</string>
+    <string name="camera_instruction">Arahkan kamera ke motif songket dan tekan tombol untuk mengambil foto</string>
+    <string name="capture_button">Tombol Capture</string>
+    <string name="processing_image">Memproses gambar...</string>
+
+    <!-- Result Screen -->
+    <string name="result_header">Here is your result</string>
+    <string name="motif_image">Gambar Motif</string>
+    <string name="motif_name_placeholder">Nama Motif</string>
+    <string name="accuracy_placeholder">Akurasi: 0%</string>
+    <string name="probabilities_placeholder">Probabilitas akan ditampilkan di sini</string>
+    <string name="cek_motif_lagi">Cek Motif Lagi</string>
+    <string name="selesai">Selesai</string>
+    <string name="classifying_motif">Mengklasifikasi motif...</string>
+    <string name="error_message">Terjadi kesalahan dalam mengklasifikasi motif</string>
+
+    <!-- Dialog -->
+    <string name="select_image_source">Pilih Sumber Gambar</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+
+    <!-- Motif Names -->
+    <string name="motif_bintang">Motif Bintang-Bintang</string>
+    <string name="motif_bunga_pucuk">Motif Bunga Pucuk</string>
+    <string name="motif_cangkir">Motif Cangkir</string>
+    <string name="motif_naga">Motif Naga</string>
+    <string name="motif_unknown">Motif Unknown</string>
+    <string name="motif_wayang">Motif Wayang</string>
+
+    <!-- Error Messages -->
+    <string name="error_camera_permission">Izin kamera diperlukan untuk mengambil foto</string>
+    <string name="error_image_processing">Gagal memproses gambar</string>
+    <string name="error_model_loading">Gagal memuat model klasifikasi</string>
+    <string name="error_classification">Gagal mengklasifikasi motif</string>
+
+    <!-- Loading Messages -->
+    <string name="loading_model">Memuat model...</string>
+    <string name="analyzing_image">Menganalisis gambar...</string>
+    <string name="preparing_results">Menyiapkan hasil...</string>
+
+    <!-- Accessibility -->
+    <string name="content_description_logo">Logo aplikasi iSongket</string>
+    <string name="content_description_motif_image">Gambar motif songket yang akan diklasifikasi</string>
+    <string name="content_description_camera_capture">Tombol untuk mengambil foto motif</string>
+    <string name="content_description_back_button">Tombol untuk kembali ke halaman sebelumnya</string>
+    <string name="version">Version 1.0</string>
+</resources>

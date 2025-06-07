@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/result_header"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/imgResult"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tvTopResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:id="@+id/layoutOtherProbs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <Button
+            android:id="@+id/btnRetry"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:text="@string/cek_motif_lagi"
+            android:textAllCaps="false"
+            android:textSize="13sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btn_red_filled"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:text="@string/selesai"
+            android:textAllCaps="false"
+            android:textSize="13sp"
+            android:textColor="#B80000"
+            android:background="@drawable/btn_red_outline"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+</ScrollView>
