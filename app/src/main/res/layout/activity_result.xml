@@ -64,5 +64,15 @@
             android:background="@drawable/btn_red_outline"
             android:layout_marginTop="12dp" />
 
+        <Button
+            android:id="@+id/btnUmux"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:text="@string/berikan_penilaian"
+            android:textAllCaps="false"
+            android:textSize="13sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btn_red_filled"
+            android:layout_marginTop="12dp" />
     </LinearLayout>
 </ScrollView>

@@ -38,6 +38,8 @@
         <activity android:name=".camera.CameraActivity" />
         <activity android:name=".loading.LoadingActivity" />
         <activity android:name=".classifier.ResultActivity" />
+        <activity android:name=".umux.UMUXActivity" />
+
 
         <!-- FileProvider (untuk ambil gambar dari kamera) -->
         <provider

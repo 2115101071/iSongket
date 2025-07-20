@@ -1,26 +1,36 @@
 package com.example.isongket.classifier
 
+import android.Manifest
 import android.annotation.SuppressLint
 import android.app.AlertDialog
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import android.os.*
+import android.os.Bundle
+import android.os.Environment
 import android.provider.MediaStore
 import android.util.Log
-import android.widget.*
+import android.widget.Button
+import android.widget.ImageView
+import android.widget.LinearLayout
+import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.FileProvider
 import com.example.isongket.R
+import com.example.isongket.umux.UMUXActivity
 import org.tensorflow.lite.Interpreter
-import java.io.*
+import java.io.File
+import java.io.FileInputStream
+import java.io.FileOutputStream
 import java.nio.ByteBuffer
 import java.nio.ByteOrder
 import java.nio.MappedByteBuffer
 import java.nio.channels.FileChannel
 import java.text.SimpleDateFormat
-import java.util.*
+import java.util.Date
+import java.util.Locale
 
 @Suppress("DEPRECATION")
 class ResultActivity : AppCompatActivity() {
@@ -93,6 +103,13 @@ class ResultActivity : AppCompatActivity() {
             finishAffinity()
             Log.d("WhiteboxTest", "Exit button clicked, closing app")
         }
+
+        val btnFeedback = findViewById<Button>(R.id.btnUmux)
+        btnFeedback.setOnClickListener {
+            val intent = Intent(this, UMUXActivity::class.java)
+            startActivity(intent)
+            Log.d("WhiteboxTest", "Navigasi ke UMUXActivity")
+        }
     }
 
     private fun showRetryDialog() {
@@ -109,11 +126,11 @@ class ResultActivity : AppCompatActivity() {
     }
 
     private fun checkCameraPermissionAndOpen() {
-        if (checkSelfPermission(android.Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED) {
+        if (checkSelfPermission(Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED) {
             openCamera()
         } else {
             requestPermissions(
-                arrayOf(android.Manifest.permission.CAMERA),
+                arrayOf(Manifest.permission.CAMERA),
                 REQUEST_CAMERA_PERMISSION
             )
         }
